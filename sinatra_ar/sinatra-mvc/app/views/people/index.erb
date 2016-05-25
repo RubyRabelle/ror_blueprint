@@ -1,0 +1,28 @@
+<!--VIEW  -->
+<!-- /app/views/people/index.erb  - the people index view -->
+
+<h1> People</h1>
+
+<!-- loop through the values in the @people variable and print -->
+
+	<table>
+		<thead>
+			<th>Name</th>
+			<th>Birthdate</th>
+		</thead>
+		<tbody>
+			<% @people.each do |person| %>
+			<tr>
+				<td>
+					<a href="/people/<%=person.id%>">
+						<%= "#{person.first_name} #{person.last_name}" %>
+					</a>
+				</td>
+				<td><%= "#{person.birthdate}"%></td>
+			</tr>
+			<% end %>
+		</tbody>
+	</table>
+
+
+

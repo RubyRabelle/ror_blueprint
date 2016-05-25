@@ -1,3 +1,9 @@
+# DB - database modifier
+# /db/seeds.rb
+
+#This uses faker gem to populate the database with randomly
+#generated fake data
+
 require 'faker'
 
 (1..40).each do |i|

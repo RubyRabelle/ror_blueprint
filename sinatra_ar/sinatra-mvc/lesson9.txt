@@ -1,0 +1,74 @@
+Lesson 9 
+
+**----------------
+CRUD - web applications do the following functions 
+
+Create - data save to db
+Read  - data from db
+Update
+Delete
+
+
+REST
+REPresentational
+State
+Transfer
+-- Convention for structuring URLs
+Sinatra does not handle REST, Ruby mostly does.
+
+Video:
+Each piece of data = a "resource" (instance?)
+for class Person,  each person is a resource
+
+display your resources - get request
+new resource - get request to create a new person
+
+submit resource - post request
+
+get request to see a specific resource
+update resource - put request to edit form
+
+submit update - put request
+
+delete
+
+Lesson 9:
+1. Create controllers/people_controller.rb
+	--add this route
+	get '/people' do
+		'This is a people page'		
+	end
+
+bundle exec rackup - to start server
+http://localhost:9292/people
+
+2. add 'people' folder to views for the html
+	add index.erb file with some html to show the people
+	
+
+Lesson 9b. Individual people pages
+1. create show route that accepts id as parameter
+get '/people/:id' do
+   "This is a person show page!"
+end
+(start server)
+http://localhost:9292/people/5
+
+2. in views/people  create show.erb
+use ActiveRecord method to find person with id
+    get '/people/:id' do
+    	@person = Person.find(params[:id])
+    	birthdate_string = @person.birthdate.strftime("%m%d%Y")
+    	birth_path_num = Person.get_birth_path_num(birthdate_string)
+    	@message = Person.get_message(birth_path_num)  
+    	erb :"/people/show"
+    end
+
+3. run rspec files ... 	show_link_rspec does not work yet..
+
+Lesson 9c - Add links to the people
+added table around the names/birthdates
+added link to corresponding id, calling the page with 
+'/people/id' (??is this a relative path or is it assigned somewhere?)
+	
+
