@@ -280,39 +280,11 @@
 	"buffers":
 	[
 		{
-			"file": "app/controllers/people_controller.rb",
+			"file": "/D/Users/Mom/_dev/SkillCrush/downloads/204/lesson-11/provided-code/sample-solution/style-forms/app/views/form.erb",
 			"settings":
 			{
-				"buffer_size": 1857,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"contents": "<!--VIEW  -->\n<!-- /app/views/people/edit.erb  - form to edit existing person -->\n\n<form action=\"<%= \"/people/#{@person.id}\" %>\" method=\"post\">\n	<input type=\"hidden\" name=\"_method\" value=\"put\" />\n	<label for=\"first_name\">First Name:</label>\n	<input type=\"text\" name=\"first_name\" value=\"<%= @person.first_name %>\" />\n	\n	<label for=\"last_name\">Last Name:</label>\n	<input type=\"text\" name=\"last_name\" value=\"<%= @person.last_name %>\" />\n\n	<label for=\"birthdate\">Birthdate:</label>\n	<input name=\"birthdate\" type=\"text\" value=\"<%= @person.birthdate %>\" />\n\n	<input type=\"submit\"/>\n</form>\n",
-			"file": "app/views/people/edit.erb",
-			"file_size": 600,
-			"file_write_time": 131086899753779469,
-			"settings":
-			{
-				"buffer_size": 584,
-				"line_ending": "Windows",
-				"name": "edit.erb"
-			}
-		},
-		{
-			"file": "app/views/people/new.erb",
-			"settings":
-			{
-				"buffer_size": 438,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "app/views/people/index.erb",
-			"settings":
-			{
-				"buffer_size": 598,
-				"line_ending": "Windows"
+				"buffer_size": 215,
+				"line_ending": "Unix"
 			}
 		}
 	],
@@ -344,14 +316,17 @@
 	},
 	"file_history":
 	[
+		"/D/Users/Mom/_dev/GitHub/ror_blueprint/sinatra_ar/sinatra-mvc/app/views/people/edit.erb",
+		"/D/Users/Mom/_dev/GitHub/ror_blueprint/sinatra_ar/sinatra-mvc/app/views/people/new.erb",
+		"/D/Users/Mom/_dev/GitHub/ror_blueprint/sinatra_ar/sinatra-mvc/app/helpers/application_helper.rb",
+		"/D/Users/Mom/_dev/GitHub/ror_blueprint/sinatra_ar/sinatra-mvc/app/controllers/people_controller.rb",
+		"/D/Users/Mom/_dev/GitHub/ror_blueprint/sinatra_ar/sinatra-mvc/app/views/people/_form.erb",
 		"/D/Users/Mom/_dev/GitHub/ror_blueprint/sinatra_ar/sinatra-mvc/app/views/people/index.erb",
+		"/D/Users/Mom/_dev/GitHub/ror_blueprint/sinatra_ar/sinatra-mvc/app/views/people/show.erb",
 		"/D/Users/Mom/_dev/SkillCrush/downloads/204-10-CRUDFORM/sample-solution/create-person/app/controllers/people_controller.rb",
 		"/D/Users/Mom/_dev/GitHub/ror_blueprint/sinatra_ar/sinatra-mvc/app.rb",
 		"/D/Users/Mom/_dev/GitHub/ror_blueprint/sinatra_ar/sinatra-mvc/app/controllers/index_controller.rb",
-		"/D/Users/Mom/_dev/GitHub/ror_blueprint/sinatra_ar/sinatra-mvc/app/controllers/people_controller.rb",
-		"/D/Users/Mom/_dev/GitHub/ror_blueprint/sinatra_ar/sinatra-mvc/app/views/people/new.erb",
 		"/D/Users/Mom/_dev/GitHub/ror_blueprint/sinatra_ar/sinatra-mvc/app/models/person.rb",
-		"/D/Users/Mom/_dev/GitHub/ror_blueprint/sinatra_ar/sinatra-mvc/app/views/people/show.erb",
 		"/D/Users/Mom/_dev/GitHub/ror_blueprint/sinatra_ar/sinatra-mvc/spec/numerology_spec.rb",
 		"/D/Users/Mom/_dev/GitHub/ror_blueprint/sinatra_ar/sinatra-mvc/spec/spec_helper.rb",
 		"/D/Users/Mom/_dev/SkillCrush/downloads/204-10-CRUDFORM/sample-solution/create-person/app/views/people/new.erb",
@@ -468,10 +443,7 @@
 		"/D/Users/Mom/sites/ruby/ruby_challenges/nokogiri.rb",
 		"/D/Users/Mom/sites/ruby/weather_app/test_weather.rb",
 		"/D/Users/Mom/sites/ruby/ruby_challenges/hash_practice.rb",
-		"/D/Users/Mom/sites/ruby/weather_app/taylor.rb",
-		"/D/Users/Mom/sites/ruby/weather_app/weather.rb",
-		"/D/Users/Mom/sites/ruby/weather_app/weather2.rb",
-		"/D/Users/Mom/sites/ruby/weather_app/weather_app.rb"
+		"/D/Users/Mom/sites/ruby/weather_app/taylor.rb"
 	],
 	"find":
 	{
@@ -518,104 +490,23 @@
 			[
 				{
 					"buffer": 0,
-					"file": "app/controllers/people_controller.rb",
+					"file": "/D/Users/Mom/_dev/SkillCrush/downloads/204/lesson-11/provided-code/sample-solution/style-forms/app/views/form.erb",
 					"settings":
 					{
-						"buffer_size": 1857,
+						"buffer_size": 215,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1546,
-								1546
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 695.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "app/views/people/edit.erb",
-					"settings":
-					{
-						"buffer_size": 584,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								583,
-								583
-							]
-						],
-						"settings":
-						{
-							"auto_name": "edit.erb",
-							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "app/views/people/new.erb",
-					"settings":
-					{
-						"buffer_size": 438,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								395,
-								395
+								0,
+								0
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "app/views/people/index.erb",
-					"settings":
-					{
-						"buffer_size": 598,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								248,
-								248
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
-							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
