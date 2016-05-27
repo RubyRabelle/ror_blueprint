@@ -1,0 +1,107 @@
+Lesson 10 - Skillcrush 204
+
+How to work with forms + CRUD
+
+Video Transcript
+
+I love to make broad sweeping generalizations like “All programming is just writing a bunch of if/else statements!”
+
+And today I am ready to make another!
+
+Between that and if/else statements you’ve basically got programming covered.
+
+Yesterday you learned about CRUD ? Create Read Update and Delete, the four core functions of any web application.
+
+And then, using the data we gave you you made awesome pages that listed all the people in your database, their first & last names and numerology numbers!
+
+Today, you are going to learn how to create NEW people, how to update and delete existing people using FORMS.
+
+THIS IS THE BIG MOMENT YOU HAVE ALL BEEN WAITING FOR!
+
+No?!
+
+Let’s begin by writing an HTML form to use to make new people:
+	
+<form action="/people" method="post">
+<label for="first_name">First Name:</label>
+<input type="text" name="first_name" />
+<label for="last_name">Last Name:</label>  
+<input type="text" name="last_name" />
+<label for="birthdate">Birthdate:</label>  
+<input name="birthdate" type="date" />
+<input type="submit" />
+</form>
+
+This is a form that has a text input for first name, a text input for last name, and a date input for a birthdate.
+
+A few things you should notice:
+
+1. Our method is POST, that makes sense because in this instance we are going to be creating a NEW person. In the future we will talk about how this will change if you want to update an existing entry or Delete an entry.
+   
+2. Notice that our ACTION is going to /people ? what this does is tell the form where to send the POST request to. We will need to write some requests in our controller to make sure that our apps handle this in the right way.
+    
+3. Otherwise, make sure to note the name values of each of the input fields, this will serve as the hash keys in our post object hashes and we will need to know them to access the parameters.
+
+Now let’s go to our controller and make sure all our requests and request URLs are set up to do what we need them to do:
+
+First let’s write a controller action to show the form:
+	
+get '/people/new' do
+ @person = Person.new
+ erb :"/people/new"
+end
+
+
+Now let’s write a controller action to create a new person:
+	
+post '/people' do
+person = Person.create(first_name: params[:first_name], last_name: params[:last_name], birthdate: params[:birthdate])
+redirect "/people/#{person.id}"
+end
+
+
+You will remember that this is the URL that we are sending our form to via the action attribute.
+	
+<form action="/people" method="post">
+<label for="first_name">First Name:</label>
+<input type="text" name="first_name" />
+<label for="last_name">Last Name:</label>  
+<input type="text" name="last_name" />
+<label for="birthdate">Birthdate:</label>  
+<input name="birthdate" type="date" />
+<input type="submit" />
+</form>
+
+
+And finally, let’s write a controller action to show us the result so that we can confirm that it worked!
+
+get '/people/:id' do
+@person = Person.find(params[:id])
+erb :"/people/show"
+end
+
+I will need to use the person’s id and then it will use the template show.erb found in the people folder.
+
+Also, if you are wondering HOW it will know to go to this page I would like to remind you of the redirect we wrote in our post action:
+	
+post '/people' do
+person = Person.create(first_name: params[:first_name], last_name: params[:last_name], birthdate: params[:birthdate])
+redirect "/people/#{person.id}"
+end
+
+Something I want to note here is that we are using a specific convention for naming our template files:
+
+    You will use the index.erb file to show ALL the people
+    You will use show.erb file to show ONE person
+    You will use the new.erb file to create a new person
+    And finally, you will use the edit.erb file to edit a person 
+
+And mind you, if you create any new classes in your app (like dogs, cats, tweets, etc.) you will use the SAME names for those files for those classes, you will just organize them in different folders that will also be named after their classes. 
+
+Like the people folder. 
+
+As you will remember from our video about CRUD & REST from yesterday, you aren’t required to name things this way but it’s the convention and therefore, best practice!
+
+Alright, you jonesing to give it a try? Do it!!
+
+ 

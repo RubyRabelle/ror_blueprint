@@ -1,0 +1,691 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"birthdate",
+				"birthdate_string"
+			],
+			[
+				"DB",
+				"DB_PASSWORD"
+			],
+			[
+				"db",
+				"DB_USERNAME"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"inlin",
+				"inline-block"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"paddin",
+				"padding-right"
+			],
+			[
+				"bol",
+				"bolder"
+			],
+			[
+				"padding",
+				"padding-left"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"s",
+				"font-size"
+			],
+			[
+				"co",
+				"color"
+			],
+			[
+				"birth",
+				"birth_path_num"
+			],
+			[
+				"bir",
+				"birthdate"
+			],
+			[
+				"b",
+				"birthdate"
+			],
+			[
+				"sunny",
+				"sunny_weather"
+			],
+			[
+				"weather",
+				"weather_description"
+			],
+			[
+				"weath",
+				"weather_description"
+			],
+			[
+				"w",
+				"weather_description"
+			],
+			[
+				"to",
+				"to_i"
+			],
+			[
+				"str",
+				"str_forecast"
+			],
+			[
+				"st",
+				"strftime"
+			],
+			[
+				"my",
+				"my_temp"
+			],
+			[
+				"f",
+				"fahrenheit"
+			],
+			[
+				"unit",
+				"degree_units"
+			],
+			[
+				"the",
+				"the_message"
+			],
+			[
+				"play",
+				"play_game"
+			],
+			[
+				"Magi",
+				"Magic8Ball"
+			],
+			[
+				"test",
+				"test_user"
+			],
+			[
+				"bp",
+				"bp_content"
+			],
+			[
+				"get",
+				"get_input"
+			],
+			[
+				"pu",
+				"publish_blog"
+			],
+			[
+				"blog",
+				"blog_hash"
+			],
+			[
+				"curr",
+				"current_blog_post"
+			],
+			[
+				"au",
+				"author_name"
+			],
+			[
+				"fav_books",
+				"fav_books_movies"
+			],
+			[
+				"fav_book",
+				"fav_books_movies"
+			],
+			[
+				"o",
+				"owner_name"
+			],
+			[
+				"publish",
+				"publish_blog"
+			],
+			[
+				"save",
+				"save_blog"
+			],
+			[
+				"blo",
+				"blogger_name"
+			],
+			[
+				"num",
+				"num_of_posts"
+			],
+			[
+				"cla",
+				"cla	class .. < ParentClass .. initialize .. end"
+			],
+			[
+				"p",
+				"pet_name"
+			],
+			[
+				"cl",
+				"cla	class .. < ParentClass .. initialize .. end"
+			],
+			[
+				"method",
+				"method_variable"
+			],
+			[
+				"pla",
+				"play_again"
+			],
+			[
+				"pr",
+				"prt_string"
+			],
+			[
+				"check",
+				"check_magic_number"
+			],
+			[
+				"gre",
+				"greet_user"
+			],
+			[
+				"alwa",
+				"always_3"
+			],
+			[
+				"second",
+				"second_magic_number"
+			],
+			[
+				"thir",
+				"third_magic_number"
+			],
+			[
+				"se",
+				"second_magic_number"
+			],
+			[
+				"first",
+				"first_magic_number"
+			],
+			[
+				"if",
+				"ife	if … else … end"
+			],
+			[
+				"temp",
+				"temp_magic_number"
+			],
+			[
+				"pass",
+				"pass_number"
+			],
+			[
+				"add",
+				"add_number"
+			],
+			[
+				"ne",
+				"new_magic_number"
+			],
+			[
+				"magic",
+				"magic_number"
+			],
+			[
+				"magi",
+				"magic_number"
+			],
+			[
+				"mag",
+				"magic_number"
+			],
+			[
+				"arr",
+				"arr_birthdate"
+			],
+			[
+				"case",
+				"case_statement"
+			],
+			[
+				"y",
+				"Y"
+			],
+			[
+				"final",
+				"final_num"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "app/controllers/people_controller.rb",
+			"settings":
+			{
+				"buffer_size": 1857,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "<!--VIEW  -->\n<!-- /app/views/people/edit.erb  - form to edit existing person -->\n\n<form action=\"<%= \"/people/#{@person.id}\" %>\" method=\"post\">\n	<input type=\"hidden\" name=\"_method\" value=\"put\" />\n	<label for=\"first_name\">First Name:</label>\n	<input type=\"text\" name=\"first_name\" value=\"<%= @person.first_name %>\" />\n	\n	<label for=\"last_name\">Last Name:</label>\n	<input type=\"text\" name=\"last_name\" value=\"<%= @person.last_name %>\" />\n\n	<label for=\"birthdate\">Birthdate:</label>\n	<input name=\"birthdate\" type=\"text\" value=\"<%= @person.birthdate %>\" />\n\n	<input type=\"submit\"/>\n</form>\n",
+			"file": "app/views/people/edit.erb",
+			"file_size": 600,
+			"file_write_time": 131086899753779469,
+			"settings":
+			{
+				"buffer_size": 584,
+				"line_ending": "Windows",
+				"name": "edit.erb"
+			}
+		},
+		{
+			"file": "app/views/people/new.erb",
+			"settings":
+			{
+				"buffer_size": 438,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/views/people/index.erb",
+			"settings":
+			{
+				"buffer_size": 598,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "Packages/Ruby/Ruby.sublime-build",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"",
+				"Set Syntax: R Console"
+			]
+		],
+		"width": 512.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/D/Users/Mom/_dev/GitHub/ror_blueprint/sinatra_ar/sinatra-mvc/app/views/people/index.erb",
+		"/D/Users/Mom/_dev/SkillCrush/downloads/204-10-CRUDFORM/sample-solution/create-person/app/controllers/people_controller.rb",
+		"/D/Users/Mom/_dev/GitHub/ror_blueprint/sinatra_ar/sinatra-mvc/app.rb",
+		"/D/Users/Mom/_dev/GitHub/ror_blueprint/sinatra_ar/sinatra-mvc/app/controllers/index_controller.rb",
+		"/D/Users/Mom/_dev/GitHub/ror_blueprint/sinatra_ar/sinatra-mvc/app/controllers/people_controller.rb",
+		"/D/Users/Mom/_dev/GitHub/ror_blueprint/sinatra_ar/sinatra-mvc/app/views/people/new.erb",
+		"/D/Users/Mom/_dev/GitHub/ror_blueprint/sinatra_ar/sinatra-mvc/app/models/person.rb",
+		"/D/Users/Mom/_dev/GitHub/ror_blueprint/sinatra_ar/sinatra-mvc/app/views/people/show.erb",
+		"/D/Users/Mom/_dev/GitHub/ror_blueprint/sinatra_ar/sinatra-mvc/spec/numerology_spec.rb",
+		"/D/Users/Mom/_dev/GitHub/ror_blueprint/sinatra_ar/sinatra-mvc/spec/spec_helper.rb",
+		"/D/Users/Mom/_dev/SkillCrush/downloads/204-10-CRUDFORM/sample-solution/create-person/app/views/people/new.erb",
+		"/D/Users/Mom/_dev/GitHub/ror_blueprint/sinatra_ar/sinatra-mvc/spec/run_tests.rb",
+		"/D/Users/Mom/SK-204/Lesson9-solution/people-show-link/app/views/index.erb",
+		"/D/Users/Mom/SK-204/Lesson9-solution/people-show-link/app/views/layout.erb",
+		"/D/Users/Mom/SK-204/Lesson9-solution/people-show-link/app/views/people/show.erb",
+		"/D/Users/Mom/SK-204/Lesson9-solution/people-show-link/app/views/people/index.erb",
+		"/D/Users/Mom/SK-204/Lesson9-solution/people-show-link/app/views/form.erb",
+		"/D/Users/Mom/SK-204/Lesson9-solution/people-show-link/app/controllers/people_controller.rb",
+		"/D/Users/Mom/_dev/SkillCrush/downloads/people-show/people-show/app/views/people/show.erb",
+		"/D/Users/Mom/_dev/SkillCrush/downloads/people-show/people-show/app/controllers/people_controller.rb",
+		"/D/Users/Mom/_dev/SkillCrush/downloads/204-10-CRUDFORM/provided-code/.gitkeep",
+		"/D/Users/Mom/_dev/GitHub/ror_blueprint/sinatra_ar/sinatra-mvc/db/seeds.rb",
+		"/D/Users/Mom/_dev/SkillCrush/downloads/people-index/people-index/app/views/people/index.erb",
+		"/D/Users/Mom/_dev/SkillCrush/downloads/people-index/people-index/app/controllers/people_controller.rb",
+		"/D/Users/Mom/Documents/204-week2-tues-code/solution-numerology-refactor/app/controllers/index_controller.rb",
+		"/D/Users/Mom/Documents/204-week2-tues-code/solution-numerology-refactor/app/models/person.rb",
+		"/D/Users/Mom/_dev/GitHub/ror_blueprint/sinatra_ar/sinatra-mvc/Gemfile",
+		"/D/Users/Mom/_dev/SkillCrush/downloads/204-week2-tues-code/solution-numerology-refactor/db/seeds.rb",
+		"/D/Users/Mom/ror_blueprint/sinatra_ar/mvc_sinatra/db/seeds.rb",
+		"/D/Users/Mom/_dev/GitHub/ror_blueprint/sinatra_ar/sinatra-mvc/.gitignore",
+		"/D/Users/Mom/_dev/GitHub/ror_blueprint/sinatra_ar/sinatra-mvc/config/database.yml",
+		"/D/Users/Mom/_dev/SkillCrush/downloads/sample-solution/numerology-web-app/index.rb",
+		"/D/Users/Mom/_dev/SkillCrush/downloads/numerology solution code/sample-solution/numerology-error-handling/index.rb",
+		"/D/Users/Mom/_dev/GitHub/sinatra-mvc/config/database.yml",
+		"/D/Users/Mom/_dev/GitHub/ror_blueprint/sinatra_ar/activerecord-template/config.rb",
+		"/D/Users/Mom/_dev/GitHub/ror_blueprint/sinatra_ar/sinatra-mvc/config.ru",
+		"/D/Users/Mom/_dev/GitHub/sinatra-mvc/sinatra-mvc/README.md",
+		"/D/Users/Mom/_dev/GitHub/sinatra-mvc/sinatra-mvc/config/database.yml",
+		"/D/Users/Mom/_dev/GitHub/activerecord-template/config.rb",
+		"/D/Users/Mom/_dev/GitHub/activerecord-template/Rakefile",
+		"/D/Users/Mom/_dev/GitHub/activerecord-template/db/migrate/20160503224509_create_people.rb",
+		"/D/Users/Mom/_dev/GitHub/activerecord-template/Gemfile",
+		"/D/Users/Mom/_dev/GitHub/activerecord-template/models/person.rb",
+		"/D/Users/Mom/_dev/GitHub/activerecord-template/Gemfile.lock",
+		"/D/Users/Mom/ror_blueprint/sinatra_ar/activerecord_template/config.rb",
+		"/D/Users/Mom/_dev/GitHub/activerecord-template/activerecord-template/config.rb",
+		"/D/Users/Mom/_dev/GitHub/activerecord-template/db/migrate/20160503213337_create_people.rb",
+		"/D/Users/Mom/ror_blueprint/sinatra_ar/activerecord_template/Rakefile",
+		"/D/Users/Mom/_dev/GitHub/numerology_app/views/form.erb",
+		"/D/Users/Mom/_dev/GitHub/numerology_app/views/layout.erb",
+		"/D/Users/Mom/_dev/GitHub/numerology_app/index.rb",
+		"/D/Users/Mom/_dev/GitHub/numerology_app/views/index.erb",
+		"/D/Users/Mom/_dev/GitHub/numerology_app/README.md",
+		"/D/Users/Mom/_dev/GitHub/numerology_app/numerology.rb",
+		"/D/Users/Mom/_dev/SkillCrush/SK101/101-sample-code-18.08/css/main.css",
+		"/C/Program Files (x86)/Adobe Photoshop CS6/Data/XMP.cfg",
+		"/C/Program Files (x86)/Adobe Photoshop CS6/unins000.dat",
+		"/D/Users/Mom/sites/ruby/ruby_challenges2/blog.rb",
+		"/D/Users/Mom/sites/ruby/rubyrabelle.github.io/css/rabelle3-style.css",
+		"/D/Users/Mom/sites/ruby/ruby_challenges2/webscrape.rb",
+		"/D/Users/Mom/_dev/sites/ruby/ruby_challenges/always_three.rb",
+		"/D/Users/Mom/_dev/sites/ruby/ruby_challenges/blog_workingversion.rb",
+		"/D/Users/Mom/Documents/ITSE1345/labs/Lab1.pdf",
+		"/D/Users/Mom/Documents/ITSE1345/labs/CH2/CH2_6_mccrea.txt",
+		"/C/Users/Mom/Downloads/Chapter01.zip",
+		"/D/Users/Mom/sites/ror_blueprint/sinatra_ar/mvc_sinatra/app/controllers/index_controller.rb",
+		"/D/Users/Mom/sites/ror_blueprint/sinatra_ar/numerology_app/index_mine.rb",
+		"/D/Users/Mom/sites/ror_blueprint/sinatra_ar/mvc_sinatra/app.rb",
+		"/D/Users/Mom/sites/ror_blueprint/sinatra_ar/numerology_app/views/index.erb",
+		"/D/Users/Mom/sites/ror_blueprint/sinatra_ar/numerology_app/views/form.erb",
+		"/D/Users/Mom/sites/ror_blueprint/sinatra_ar/mvc_sinatra/db/seeds.rb",
+		"/D/Users/Mom/sites/ror_blueprint/sinatra_ar/mvc_sinatra/app/models/person.rb",
+		"/D/Users/Mom/sites/ror_blueprint/sinatra_ar/mvc_sinatra/Gemfile",
+		"/D/Users/Mom/sites/ror_blueprint/sinatra_ar/mvc_sinatra/app/controllers/people_controller.rb",
+		"/D/Users/Mom/sites/ror_blueprint/sinatra_ar/mvc_sinatra/app/views/people/index.erb",
+		"/D/Users/Mom/sites/ror_blueprint/sinatra_ar/numerology_app/index.rb",
+		"/D/Users/Mom/sites/ror_blueprint/sinatra_ar/mvc_sinatra/solution-numerology-seeds/db/seeds.rb",
+		"/D/Users/Mom/sites/ruby/sinatra-mvc/db/migrate/20151021185632_create_people.rb",
+		"/D/Users/Mom/sites/ruby/sinatra-mvc/app/models/person.rb",
+		"/D/Users/Mom/sites/ruby/sinatra-mvc/Gemfile",
+		"/D/Users/Mom/sites/ruby/sinatra-mvc/config/database.yml",
+		"/D/Users/Mom/sites/ruby/sinatra-mvc/spec/people_spec.rb",
+		"/D/Users/Mom/sites/ror_blueprint/sinatra_ar/mvc_sinatra/app/controllers/index-controller.rb",
+		"/D/Users/Mom/sites/ruby/activerecord-template/config.rb",
+		"/D/Users/Mom/sites/ruby/activerecord-template/Gemfile.lock",
+		"/D/Users/Mom/sites/ruby/activerecord-template/Rakefile",
+		"/D/Users/Mom/sites/ruby/activerecord-template/db/migrate/20151021185632_create_people.rb",
+		"/D/Users/Mom/sites/ruby/activerecord-template/Gemfile",
+		"/C/Ruby21/lib/ruby/2.1.0/rubygems/ssl_certs/AddTrustExternalCARoot-2048.pem",
+		"/D/Users/Mom/sites/ruby/activerecord-template/person.rb",
+		"/D/Users/Mom/sites/ruby/numerology_app/views/index.erb",
+		"/D/Users/Mom/sites/ruby/numerology_app/views/form.erb",
+		"/D/Users/Mom/sites/ruby/numerology_app/views/newpage.erb",
+		"/D/Users/Mom/sites/ruby/sinatra/revised_webapp.rb",
+		"/D/Users/Mom/sites/ruby/numerology_app/numerology_extra_code",
+		"/D/Users/Mom/sites/ruby/numerology_app/views/layout.erb",
+		"/D/Users/Mom/sites/ruby/numerology_app/index_mine.rb",
+		"/D/Users/Mom/sites/ruby/numerology_app/index.rb",
+		"/D/Users/Mom/sites/ruby/numerology_app/sample-solution/sample-solution_error handling/numerology-error-handling/views/form.erb",
+		"/D/Users/Mom/sites/ruby/numerology_app/sample-solution/sample-solution_error handling/numerology-error-handling/index.rb",
+		"/D/Users/Mom/sites/ruby/numerology_app/sample-solution/numerology-with-templates/index.rb",
+		"/D/Users/Mom/sites/ruby/numerology_app/spec/numerology_with_templates_spec.rb",
+		"/D/Users/Mom/sites/ruby/numerology_app/sample-solution/numerology-with-templates/views/index.erb",
+		"/D/Users/Mom/sites/ruby/ruby_challenges/numerology2.rb",
+		"/D/Users/Mom/sites/ruby/ruby_challenges/numerology.rb",
+		"/D/Users/Mom/sites/ruby/numerology_app/spec/spec_helper.rb",
+		"/D/Users/Mom/sites/ruby/numerology_app/newpage.rb",
+		"/D/Users/Mom/sites/ruby/numerology_app/spec/numerology_web_app_spec.rb",
+		"/D/Users/Mom/sites/ruby/sinatra/index.rb",
+		"/D/Users/Mom/sites/ruby/sinatra/hello_world_spec.rb",
+		"/D/Users/Mom/sites/ruby/numerology_app/.rspec",
+		"/D/Users/Mom/sites/ruby/New folder/webapp.rb",
+		"/D/Users/Mom/sites/ruby/sinatra/webapp.rb",
+		"/D/Users/Mom/sites/ruby/sinatra/.rspec",
+		"/D/Users/Mom/sites/ruby/sinatra/Gemfile.lock",
+		"/C/DevKit/config.yml",
+		"/C/Ruby21/lib/ruby/gems/2.1.0/gems/rspec-core-3.3.2/lib/rspec/core/runner.rb",
+		"/C/Ruby21/lib/ruby/gems/2.1.0/gems/rspec-core-3.3.2/lib/rspec/core/configuration.rb",
+		"/C/Ruby21/lib/ruby/site_ruby/2.1.0/rubygems/core_ext/kernel_require.rb",
+		"/C/Ruby21/lib/ruby/gems/2.1.0/gems/yahoo_weatherman-2.0.0/lib/yahoo_weatherman.rb",
+		"/C/Ruby21/lib/ruby/gems/2.1.0/gems/yahoo_weatherman-2.0.0/lib/yahoo_weatherman/response.rb",
+		"/D/Users/Mom/sites/ruby/ruby_challenges/nokogiri.rb",
+		"/D/Users/Mom/sites/ruby/weather_app/test_weather.rb",
+		"/D/Users/Mom/sites/ruby/ruby_challenges/hash_practice.rb",
+		"/D/Users/Mom/sites/ruby/weather_app/taylor.rb",
+		"/D/Users/Mom/sites/ruby/weather_app/weather.rb",
+		"/D/Users/Mom/sites/ruby/weather_app/weather2.rb",
+		"/D/Users/Mom/sites/ruby/weather_app/weather_app.rb"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"postgres",
+			"body",
+			"lora",
+			"indent",
+			"tab",
+			"cat"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"lizard"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "app/controllers/people_controller.rb",
+					"settings":
+					{
+						"buffer_size": 1857,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1546,
+								1546
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 695.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/views/people/edit.erb",
+					"settings":
+					{
+						"buffer_size": 584,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								583,
+								583
+							]
+						],
+						"settings":
+						{
+							"auto_name": "edit.erb",
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/views/people/new.erb",
+					"settings":
+					{
+						"buffer_size": 438,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								395,
+								395
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "app/views/people/index.erb",
+					"settings":
+					{
+						"buffer_size": 598,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								248,
+								248
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/D/Users/Mom/Documents/ITSE1345/DBCREATE.SQL"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 125.0,
+	"status_bar_visible": true
+}
