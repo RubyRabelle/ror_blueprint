@@ -1,0 +1,755 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Numerology App</title>
+
+	<!--mobile first  - proper rendering -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+<!-- Optional theme -
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css"> -->
+
+</head>
+
+<body>
+
+	<div class="container">
+	<div class="header">
+		<h1>Rabelle does Numerology! </h1>
+	</div>
+	<hr />
+
+		<!--VIEW  -->
+<!-- /app/views/people/index.erb  - the people index view -->
+
+<h1> People</h1>
+
+<!-- loop through the values in the @people variable and print -->
+
+	<table>
+		<thead>
+			<th>Name</th>
+			<th>Birthdate</th>
+			<th>Edit</th>
+			<th>Delete</th>
+		</thead>
+		<tbody>
+			
+			<tr>
+				<td>
+					<a href="/people/10">
+						Sophie Goyette
+					</a>
+				</td>
+				<td>1975-08-30 00:00:00 UTC</td>
+				<td>
+					<a href="/people/10/edit"> Edit</a>
+				</td>
+				<td>
+					<form action="/people/10" method="post">
+						<input type="hidden" name="_method" value="delete" />
+						<input type="submit" value="Delete" />
+					</form>
+				</td>
+			</tr>
+			
+			<tr>
+				<td>
+					<a href="/people/11">
+						Furman Corkery
+					</a>
+				</td>
+				<td>1997-03-15 00:00:00 UTC</td>
+				<td>
+					<a href="/people/11/edit"> Edit</a>
+				</td>
+				<td>
+					<form action="/people/11" method="post">
+						<input type="hidden" name="_method" value="delete" />
+						<input type="submit" value="Delete" />
+					</form>
+				</td>
+			</tr>
+			
+			<tr>
+				<td>
+					<a href="/people/14">
+						Alfreda Dicki
+					</a>
+				</td>
+				<td>1961-09-06 00:00:00 UTC</td>
+				<td>
+					<a href="/people/14/edit"> Edit</a>
+				</td>
+				<td>
+					<form action="/people/14" method="post">
+						<input type="hidden" name="_method" value="delete" />
+						<input type="submit" value="Delete" />
+					</form>
+				</td>
+			</tr>
+			
+			<tr>
+				<td>
+					<a href="/people/23">
+						Yesenia Halvorson
+					</a>
+				</td>
+				<td>1955-05-11 00:00:00 UTC</td>
+				<td>
+					<a href="/people/23/edit"> Edit</a>
+				</td>
+				<td>
+					<form action="/people/23" method="post">
+						<input type="hidden" name="_method" value="delete" />
+						<input type="submit" value="Delete" />
+					</form>
+				</td>
+			</tr>
+			
+			<tr>
+				<td>
+					<a href="/people/25">
+						Giovanna Brown
+					</a>
+				</td>
+				<td>1978-05-24 00:00:00 UTC</td>
+				<td>
+					<a href="/people/25/edit"> Edit</a>
+				</td>
+				<td>
+					<form action="/people/25" method="post">
+						<input type="hidden" name="_method" value="delete" />
+						<input type="submit" value="Delete" />
+					</form>
+				</td>
+			</tr>
+			
+			<tr>
+				<td>
+					<a href="/people/26">
+						Taryn Jacobi
+					</a>
+				</td>
+				<td>1962-12-08 00:00:00 UTC</td>
+				<td>
+					<a href="/people/26/edit"> Edit</a>
+				</td>
+				<td>
+					<form action="/people/26" method="post">
+						<input type="hidden" name="_method" value="delete" />
+						<input type="submit" value="Delete" />
+					</form>
+				</td>
+			</tr>
+			
+			<tr>
+				<td>
+					<a href="/people/27">
+						Ryan Carroll
+					</a>
+				</td>
+				<td>1988-06-12 00:00:00 UTC</td>
+				<td>
+					<a href="/people/27/edit"> Edit</a>
+				</td>
+				<td>
+					<form action="/people/27" method="post">
+						<input type="hidden" name="_method" value="delete" />
+						<input type="submit" value="Delete" />
+					</form>
+				</td>
+			</tr>
+			
+			<tr>
+				<td>
+					<a href="/people/31">
+						Caleb Schulist
+					</a>
+				</td>
+				<td>1980-05-04 00:00:00 UTC</td>
+				<td>
+					<a href="/people/31/edit"> Edit</a>
+				</td>
+				<td>
+					<form action="/people/31" method="post">
+						<input type="hidden" name="_method" value="delete" />
+						<input type="submit" value="Delete" />
+					</form>
+				</td>
+			</tr>
+			
+			<tr>
+				<td>
+					<a href="/people/32">
+						Tod Runolfsson
+					</a>
+				</td>
+				<td>1939-02-05 00:00:00 UTC</td>
+				<td>
+					<a href="/people/32/edit"> Edit</a>
+				</td>
+				<td>
+					<form action="/people/32" method="post">
+						<input type="hidden" name="_method" value="delete" />
+						<input type="submit" value="Delete" />
+					</form>
+				</td>
+			</tr>
+			
+			<tr>
+				<td>
+					<a href="/people/33">
+						Janis Cronin
+					</a>
+				</td>
+				<td>1938-08-15 00:00:00 UTC</td>
+				<td>
+					<a href="/people/33/edit"> Edit</a>
+				</td>
+				<td>
+					<form action="/people/33" method="post">
+						<input type="hidden" name="_method" value="delete" />
+						<input type="submit" value="Delete" />
+					</form>
+				</td>
+			</tr>
+			
+			<tr>
+				<td>
+					<a href="/people/34">
+						Evert Baumbach
+					</a>
+				</td>
+				<td>1960-10-14 00:00:00 UTC</td>
+				<td>
+					<a href="/people/34/edit"> Edit</a>
+				</td>
+				<td>
+					<form action="/people/34" method="post">
+						<input type="hidden" name="_method" value="delete" />
+						<input type="submit" value="Delete" />
+					</form>
+				</td>
+			</tr>
+			
+			<tr>
+				<td>
+					<a href="/people/35">
+						Rupert Kozey
+					</a>
+				</td>
+				<td>1940-04-19 00:00:00 UTC</td>
+				<td>
+					<a href="/people/35/edit"> Edit</a>
+				</td>
+				<td>
+					<form action="/people/35" method="post">
+						<input type="hidden" name="_method" value="delete" />
+						<input type="submit" value="Delete" />
+					</form>
+				</td>
+			</tr>
+			
+			<tr>
+				<td>
+					<a href="/people/37">
+						Jocelyn Brakus
+					</a>
+				</td>
+				<td>1960-12-12 00:00:00 UTC</td>
+				<td>
+					<a href="/people/37/edit"> Edit</a>
+				</td>
+				<td>
+					<form action="/people/37" method="post">
+						<input type="hidden" name="_method" value="delete" />
+						<input type="submit" value="Delete" />
+					</form>
+				</td>
+			</tr>
+			
+			<tr>
+				<td>
+					<a href="/people/38">
+						Loren Johnston
+					</a>
+				</td>
+				<td>1972-08-27 00:00:00 UTC</td>
+				<td>
+					<a href="/people/38/edit"> Edit</a>
+				</td>
+				<td>
+					<form action="/people/38" method="post">
+						<input type="hidden" name="_method" value="delete" />
+						<input type="submit" value="Delete" />
+					</form>
+				</td>
+			</tr>
+			
+			<tr>
+				<td>
+					<a href="/people/39">
+						Manuel Hodkiewicz
+					</a>
+				</td>
+				<td>1969-10-24 00:00:00 UTC</td>
+				<td>
+					<a href="/people/39/edit"> Edit</a>
+				</td>
+				<td>
+					<form action="/people/39" method="post">
+						<input type="hidden" name="_method" value="delete" />
+						<input type="submit" value="Delete" />
+					</form>
+				</td>
+			</tr>
+			
+			<tr>
+				<td>
+					<a href="/people/40">
+						Edwina Renner
+					</a>
+				</td>
+				<td>1985-03-21 00:00:00 UTC</td>
+				<td>
+					<a href="/people/40/edit"> Edit</a>
+				</td>
+				<td>
+					<form action="/people/40" method="post">
+						<input type="hidden" name="_method" value="delete" />
+						<input type="submit" value="Delete" />
+					</form>
+				</td>
+			</tr>
+			
+			<tr>
+				<td>
+					<a href="/people/41">
+						Elva Smith
+					</a>
+				</td>
+				<td>1995-03-23 00:00:00 UTC</td>
+				<td>
+					<a href="/people/41/edit"> Edit</a>
+				</td>
+				<td>
+					<form action="/people/41" method="post">
+						<input type="hidden" name="_method" value="delete" />
+						<input type="submit" value="Delete" />
+					</form>
+				</td>
+			</tr>
+			
+			<tr>
+				<td>
+					<a href="/people/42">
+						David Boehm
+					</a>
+				</td>
+				<td>1938-09-14 00:00:00 UTC</td>
+				<td>
+					<a href="/people/42/edit"> Edit</a>
+				</td>
+				<td>
+					<form action="/people/42" method="post">
+						<input type="hidden" name="_method" value="delete" />
+						<input type="submit" value="Delete" />
+					</form>
+				</td>
+			</tr>
+			
+			<tr>
+				<td>
+					<a href="/people/46">
+						Test User
+					</a>
+				</td>
+				<td>2016-05-25 00:00:00 UTC</td>
+				<td>
+					<a href="/people/46/edit"> Edit</a>
+				</td>
+				<td>
+					<form action="/people/46" method="post">
+						<input type="hidden" name="_method" value="delete" />
+						<input type="submit" value="Delete" />
+					</form>
+				</td>
+			</tr>
+			
+			<tr>
+				<td>
+					<a href="/people/29">
+						Scarlett O'Hara
+					</a>
+				</td>
+				<td>2012-03-07 00:00:00 UTC</td>
+				<td>
+					<a href="/people/29/edit"> Edit</a>
+				</td>
+				<td>
+					<form action="/people/29" method="post">
+						<input type="hidden" name="_method" value="delete" />
+						<input type="submit" value="Delete" />
+					</form>
+				</td>
+			</tr>
+			
+			<tr>
+				<td>
+					<a href="/people/3">
+						Jayda Walsh
+					</a>
+				</td>
+				<td>1937-07-09 00:00:00 UTC</td>
+				<td>
+					<a href="/people/3/edit"> Edit</a>
+				</td>
+				<td>
+					<form action="/people/3" method="post">
+						<input type="hidden" name="_method" value="delete" />
+						<input type="submit" value="Delete" />
+					</form>
+				</td>
+			</tr>
+			
+			<tr>
+				<td>
+					<a href="/people/49">
+						David E. McCrea
+					</a>
+				</td>
+				<td>1965-06-10 00:00:00 UTC</td>
+				<td>
+					<a href="/people/49/edit"> Edit</a>
+				</td>
+				<td>
+					<form action="/people/49" method="post">
+						<input type="hidden" name="_method" value="delete" />
+						<input type="submit" value="Delete" />
+					</form>
+				</td>
+			</tr>
+			
+			<tr>
+				<td>
+					<a href="/people/52">
+						Julianna Banana
+					</a>
+				</td>
+				<td>2016-05-09 00:00:00 UTC</td>
+				<td>
+					<a href="/people/52/edit"> Edit</a>
+				</td>
+				<td>
+					<form action="/people/52" method="post">
+						<input type="hidden" name="_method" value="delete" />
+						<input type="submit" value="Delete" />
+					</form>
+				</td>
+			</tr>
+			
+			<tr>
+				<td>
+					<a href="/people/53">
+						Test User
+					</a>
+				</td>
+				<td>2016-05-18 00:00:00 UTC</td>
+				<td>
+					<a href="/people/53/edit"> Edit</a>
+				</td>
+				<td>
+					<form action="/people/53" method="post">
+						<input type="hidden" name="_method" value="delete" />
+						<input type="submit" value="Delete" />
+					</form>
+				</td>
+			</tr>
+			
+			<tr>
+				<td>
+					<a href="/people/54">
+						Julianna Bannanana
+					</a>
+				</td>
+				<td>1979-05-03 00:00:00 UTC</td>
+				<td>
+					<a href="/people/54/edit"> Edit</a>
+				</td>
+				<td>
+					<form action="/people/54" method="post">
+						<input type="hidden" name="_method" value="delete" />
+						<input type="submit" value="Delete" />
+					</form>
+				</td>
+			</tr>
+			
+			<tr>
+				<td>
+					<a href="/people/18">
+						Paris Daniel
+					</a>
+				</td>
+				<td>2016-05-03 00:00:00 UTC</td>
+				<td>
+					<a href="/people/18/edit"> Edit</a>
+				</td>
+				<td>
+					<form action="/people/18" method="post">
+						<input type="hidden" name="_method" value="delete" />
+						<input type="submit" value="Delete" />
+					</form>
+				</td>
+			</tr>
+			
+			<tr>
+				<td>
+					<a href="/people/2">
+						Margie Runte
+					</a>
+				</td>
+				<td>2016-05-04 00:00:00 UTC</td>
+				<td>
+					<a href="/people/2/edit"> Edit</a>
+				</td>
+				<td>
+					<form action="/people/2" method="post">
+						<input type="hidden" name="_method" value="delete" />
+						<input type="submit" value="Delete" />
+					</form>
+				</td>
+			</tr>
+			
+			<tr>
+				<td>
+					<a href="/people/4">
+						Bonnie Denesik
+					</a>
+				</td>
+				<td>2016-05-01 00:00:00 UTC</td>
+				<td>
+					<a href="/people/4/edit"> Edit</a>
+				</td>
+				<td>
+					<form action="/people/4" method="post">
+						<input type="hidden" name="_method" value="delete" />
+						<input type="submit" value="Delete" />
+					</form>
+				</td>
+			</tr>
+			
+			<tr>
+				<td>
+					<a href="/people/1">
+						Hattie Williams
+					</a>
+				</td>
+				<td>2011-12-29 00:00:00 UTC</td>
+				<td>
+					<a href="/people/1/edit"> Edit</a>
+				</td>
+				<td>
+					<form action="/people/1" method="post">
+						<input type="hidden" name="_method" value="delete" />
+						<input type="submit" value="Delete" />
+					</form>
+				</td>
+			</tr>
+			
+			<tr>
+				<td>
+					<a href="/people/55">
+						New Person
+					</a>
+				</td>
+				<td>2016-05-03 00:00:00 UTC</td>
+				<td>
+					<a href="/people/55/edit"> Edit</a>
+				</td>
+				<td>
+					<form action="/people/55" method="post">
+						<input type="hidden" name="_method" value="delete" />
+						<input type="submit" value="Delete" />
+					</form>
+				</td>
+			</tr>
+			
+			<tr>
+				<td>
+					<a href="/people/5">
+						Maxwell Lubowitz
+					</a>
+				</td>
+				<td>2016-05-02 00:00:00 UTC</td>
+				<td>
+					<a href="/people/5/edit"> Edit</a>
+				</td>
+				<td>
+					<form action="/people/5" method="post">
+						<input type="hidden" name="_method" value="delete" />
+						<input type="submit" value="Delete" />
+					</form>
+				</td>
+			</tr>
+			
+			<tr>
+				<td>
+					<a href="/people/6">
+						Sabinal Nikolaus
+					</a>
+				</td>
+				<td>1953-08-13 00:00:00 UTC</td>
+				<td>
+					<a href="/people/6/edit"> Edit</a>
+				</td>
+				<td>
+					<form action="/people/6" method="post">
+						<input type="hidden" name="_method" value="delete" />
+						<input type="submit" value="Delete" />
+					</form>
+				</td>
+			</tr>
+			
+			<tr>
+				<td>
+					<a href="/people/7">
+						Khalid Veumy
+					</a>
+				</td>
+				<td>1976-11-08 00:00:00 UTC</td>
+				<td>
+					<a href="/people/7/edit"> Edit</a>
+				</td>
+				<td>
+					<form action="/people/7" method="post">
+						<input type="hidden" name="_method" value="delete" />
+						<input type="submit" value="Delete" />
+					</form>
+				</td>
+			</tr>
+			
+			<tr>
+				<td>
+					<a href="/people/8">
+						Melany Haley
+					</a>
+				</td>
+				<td>1947-04-09 00:00:00 UTC</td>
+				<td>
+					<a href="/people/8/edit"> Edit</a>
+				</td>
+				<td>
+					<form action="/people/8" method="post">
+						<input type="hidden" name="_method" value="delete" />
+						<input type="submit" value="Delete" />
+					</form>
+				</td>
+			</tr>
+			
+			<tr>
+				<td>
+					<a href="/people/9">
+						JaceyLyn Harris
+					</a>
+				</td>
+				<td>1977-11-10 00:00:00 UTC</td>
+				<td>
+					<a href="/people/9/edit"> Edit</a>
+				</td>
+				<td>
+					<form action="/people/9" method="post">
+						<input type="hidden" name="_method" value="delete" />
+						<input type="submit" value="Delete" />
+					</form>
+				</td>
+			</tr>
+			
+			<tr>
+				<td>
+					<a href="/people/56">
+						Marianna Qennly
+					</a>
+				</td>
+				<td>1980-01-01 00:00:00 UTC</td>
+				<td>
+					<a href="/people/56/edit"> Edit</a>
+				</td>
+				<td>
+					<form action="/people/56" method="post">
+						<input type="hidden" name="_method" value="delete" />
+						<input type="submit" value="Delete" />
+					</form>
+				</td>
+			</tr>
+			
+			<tr>
+				<td>
+					<a href="/people/19">
+						Edwardo Poorisme
+					</a>
+				</td>
+				<td>1983-01-06 00:00:00 UTC</td>
+				<td>
+					<a href="/people/19/edit"> Edit</a>
+				</td>
+				<td>
+					<form action="/people/19" method="post">
+						<input type="hidden" name="_method" value="delete" />
+						<input type="submit" value="Delete" />
+					</form>
+				</td>
+			</tr>
+			
+			<tr>
+				<td>
+					<a href="/people/57">
+						Newest Person
+					</a>
+				</td>
+				<td>2015-01-01 00:00:00 UTC</td>
+				<td>
+					<a href="/people/57/edit"> Edit</a>
+				</td>
+				<td>
+					<form action="/people/57" method="post">
+						<input type="hidden" name="_method" value="delete" />
+						<input type="submit" value="Delete" />
+					</form>
+				</td>
+			</tr>
+			
+			<tr>
+				<td>
+					<a href="/people/13">
+						Jena Walker-Williamson
+					</a>
+				</td>
+				<td>1963-05-13 00:00:00 UTC</td>
+				<td>
+					<a href="/people/13/edit"> Edit</a>
+				</td>
+				<td>
+					<form action="/people/13" method="post">
+						<input type="hidden" name="_method" value="delete" />
+						<input type="submit" value="Delete" />
+					</form>
+				</td>
+			</tr>
+			
+		</tbody>
+	</table>
+
+
+
+
+	</div>
+	
+</body>
+
+</html>

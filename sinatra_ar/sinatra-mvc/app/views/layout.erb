@@ -1,31 +1,62 @@
-
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<title>Numerology App</title>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
 
-	<!--mobile first  - proper rendering -->
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Numerology App</title>
 
-<!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <!-- Bootstrap core CSS -->
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap theme -->
+    <link href="/css/bootstrap-theme.min.css" rel="stylesheet">
 
-<!-- Optional theme -
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css"> -->
 
-</head>
+    <!-- Custom styles for this template -->
+    <link href="/css/theme.css" rel="stylesheet">
 
-<body>
 
-	<div class="container">
-	<div class="header">
-		<h1>Rabelle does Numerology! </h1>
-	</div>
-	<hr />
+    <!-- Custom styles for this template -->
+    <link href="/css/jumbotron-narrow.css" rel="stylesheet">
+    
+
+
+  </head>
+
+  <body>
+
+    <div class="container">
+      <div class="header clearfix">
+        <nav>
+          <ul class="nav nav-pills pull-right">
+            <li role="presentation" class="active"><a href="/">Home</a></li>
+            <li role="presentation"><a href="/people/new">Add Person</a></li>
+            <li role="presentation"><a href="/people">See People</a></li>
+          </ul>
+        </nav>
+        <h3 class="text-muted">Numerology App</h3>
+      </div>
+      <div class="jumbotron">
+      <!--continue container-->
 
 		<%= yield %>
-	</div>
 	
-</body>
+	
+	  </div>	
+ 	  <footer class="footer">
+        <p>&copy; 2016 RubyRabelle</p>
+      </footer>
 
+    </div> <!-- /container -->
+
+
+    <!-- jQuery via Google + local fallback -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+  </body>
 </html>

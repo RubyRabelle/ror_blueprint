@@ -54,7 +54,7 @@ get '/people/:id' do
 
 	#get numerology message
 	@message = Person.get_message(birth_path_num)
-
+	
 	#render the people/show page
 	erb :"/people/show"
 end

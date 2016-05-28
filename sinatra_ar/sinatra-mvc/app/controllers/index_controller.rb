@@ -4,6 +4,9 @@
 
 
 require 'sinatra'
+get '/test' do  
+  erb :test
+end
 
 get '/:birthdate' do
   setup_index_view
@@ -13,6 +16,11 @@ get '/message/:birth_path_num' do
   birth_path_num = params[:birth_path_num].to_i
   @message = Person.get_message(birth_path_num)
   erb :index
+end
+
+
+get '/' do
+  erb :landing
 end
 
 get '/' do

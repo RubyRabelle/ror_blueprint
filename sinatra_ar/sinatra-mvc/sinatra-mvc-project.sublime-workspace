@@ -280,11 +280,91 @@
 	"buffers":
 	[
 		{
-			"file": "/D/Users/Mom/_dev/SkillCrush/downloads/204/lesson-11/provided-code/sample-solution/style-forms/app/views/form.erb",
+			"file": "app/views/jumbotron-narrow.css",
 			"settings":
 			{
-				"buffer_size": 215,
+				"buffer_size": 1411,
 				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/people/new.html",
+			"settings":
+			{
+				"buffer_size": 20,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/views/people/edit.html",
+			"settings":
+			{
+				"buffer_size": 21,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/views/people/_form.html",
+			"settings":
+			{
+				"buffer_size": 21,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/views/people/show.html",
+			"settings":
+			{
+				"buffer_size": 20,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/views/layout.html",
+			"settings":
+			{
+				"buffer_size": 3901,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/people/show.erb",
+			"settings":
+			{
+				"buffer_size": 216,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/views/layout.erb",
+			"settings":
+			{
+				"buffer_size": 2718,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/views/bootstrap.html",
+			"settings":
+			{
+				"buffer_size": 1181,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/controllers/index_controller.rb",
+			"settings":
+			{
+				"buffer_size": 868,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/views/landing.erb",
+			"settings":
+			{
+				"buffer_size": 728,
+				"line_ending": "Windows"
 			}
 		}
 	],
@@ -316,13 +396,34 @@
 	},
 	"file_history":
 	[
-		"/D/Users/Mom/_dev/GitHub/ror_blueprint/sinatra_ar/sinatra-mvc/app/views/people/edit.erb",
-		"/D/Users/Mom/_dev/GitHub/ror_blueprint/sinatra_ar/sinatra-mvc/app/views/people/new.erb",
-		"/D/Users/Mom/_dev/GitHub/ror_blueprint/sinatra_ar/sinatra-mvc/app/helpers/application_helper.rb",
-		"/D/Users/Mom/_dev/GitHub/ror_blueprint/sinatra_ar/sinatra-mvc/app/controllers/people_controller.rb",
-		"/D/Users/Mom/_dev/GitHub/ror_blueprint/sinatra_ar/sinatra-mvc/app/views/people/_form.erb",
+		"/D/Users/Mom/_dev/GitHub/ror_blueprint/sinatra_ar/sinatra-mvc/app/views/landing.erb",
+		"/D/Users/Mom/_dev/GitHub/ror_blueprint/sinatra_ar/sinatra-mvc/app/views/form.erb",
 		"/D/Users/Mom/_dev/GitHub/ror_blueprint/sinatra_ar/sinatra-mvc/app/views/people/index.erb",
+		"/D/Users/Mom/_dev/GitHub/ror_blueprint/sinatra_ar/sinatra-mvc/app/views/layout.html",
+		"/D/Users/Mom/_dev/GitHub/ror_blueprint/sinatra_ar/sinatra-mvc/app/views/index.erb",
+		"/D/Users/Mom/_dev/GitHub/ror_blueprint/sinatra_ar/sinatra-mvc/app/views/layout.erb",
+		"/D/Users/Mom/_dev/GitHub/ror_blueprint/sinatra_ar/sinatra-mvc/app/views/index.html",
+		"/D/Users/Mom/_dev/GitHub/ror_blueprint/sinatra_ar/sinatra-mvc/app/views/people/index.html",
+		"/D/Users/Mom/_dev/GitHub/bootstrap-3.3.6/docs/examples/jumbotron-narrow/index.html",
+		"/D/Users/Mom/_dev/GitHub/ror_blueprint/sinatra_ar/sinatra-mvc/app/views/people/_form.erb",
+		"/D/Users/Mom/_dev/GitHub/ror_blueprint/sinatra_ar/sinatra-mvc/public/css/people.css",
+		"/D/Users/Mom/_dev/GitHub/bootstrap-3.3.6/docs/examples/theme/index.html",
+		"/D/Users/Mom/_dev/GitHub/bootstrap-3.3.6/docs/examples/starter-template/index.html",
+		"/D/Users/Mom/_dev/SkillCrush/downloads/204/lesson-11/provided-code/sample-solution/style-forms/app/views/people/index.erb",
+		"/D/Users/Mom/_dev/GitHub/bootstrap-3.3.6/docs/examples/blog/index.html",
+		"/D/Users/Mom/_dev/SkillCrush/downloads/204/lesson-11/provided-code/sample-solution/style-forms/app/views/layout.erb",
+		"/D/Users/Mom/_dev/SkillCrush/SK101/website/index.html",
+		"/D/Users/Mom/_dev/GitHub/ror_blueprint/sinatra_ar/sinatra-mvc/app/views/people/new.erb",
+		"/D/Users/Mom/_dev/GitHub/ror_blueprint/sinatra_ar/sinatra-mvc/app/views/people/edit.erb",
+		"/D/Users/Mom/_dev/GitHub/ror_blueprint/sinatra_ar/sinatra-mvc/app/helpers/application_helper.rb",
+		"/D/Users/Mom/_dev/SkillCrush/downloads/204/lesson-11/provided-code/sample-solution/partials/app/views/people/_form.erb",
+		"/D/Users/Mom/_dev/SkillCrush/downloads/204/lesson-11/provided-code/sample-solution/partials/app/views/people/edit.erb",
 		"/D/Users/Mom/_dev/GitHub/ror_blueprint/sinatra_ar/sinatra-mvc/app/views/people/show.erb",
+		"/D/Users/Mom/_dev/SkillCrush/downloads/204/lesson-11/provided-code/sample-solution/style-forms/app/views/form.erb",
+		"/D/Users/Mom/_dev/SkillCrush/downloads/204/lesson-11/provided-code/sample-solution/style-forms/app/views/people/_form.erb",
+		"/D/Users/Mom/_dev/SkillCrush/downloads/204/lesson-11/provided-code/sample-solution/style-forms/app/views/people/edit.erb",
+		"/D/Users/Mom/_dev/GitHub/ror_blueprint/sinatra_ar/sinatra-mvc/Rakefile",
+		"/D/Users/Mom/_dev/GitHub/ror_blueprint/sinatra_ar/sinatra-mvc/app/controllers/people_controller.rb",
 		"/D/Users/Mom/_dev/SkillCrush/downloads/204-10-CRUDFORM/sample-solution/create-person/app/controllers/people_controller.rb",
 		"/D/Users/Mom/_dev/GitHub/ror_blueprint/sinatra_ar/sinatra-mvc/app.rb",
 		"/D/Users/Mom/_dev/GitHub/ror_blueprint/sinatra_ar/sinatra-mvc/app/controllers/index_controller.rb",
@@ -422,28 +523,7 @@
 		"/D/Users/Mom/sites/ruby/numerology_app/sample-solution/numerology-with-templates/index.rb",
 		"/D/Users/Mom/sites/ruby/numerology_app/spec/numerology_with_templates_spec.rb",
 		"/D/Users/Mom/sites/ruby/numerology_app/sample-solution/numerology-with-templates/views/index.erb",
-		"/D/Users/Mom/sites/ruby/ruby_challenges/numerology2.rb",
-		"/D/Users/Mom/sites/ruby/ruby_challenges/numerology.rb",
-		"/D/Users/Mom/sites/ruby/numerology_app/spec/spec_helper.rb",
-		"/D/Users/Mom/sites/ruby/numerology_app/newpage.rb",
-		"/D/Users/Mom/sites/ruby/numerology_app/spec/numerology_web_app_spec.rb",
-		"/D/Users/Mom/sites/ruby/sinatra/index.rb",
-		"/D/Users/Mom/sites/ruby/sinatra/hello_world_spec.rb",
-		"/D/Users/Mom/sites/ruby/numerology_app/.rspec",
-		"/D/Users/Mom/sites/ruby/New folder/webapp.rb",
-		"/D/Users/Mom/sites/ruby/sinatra/webapp.rb",
-		"/D/Users/Mom/sites/ruby/sinatra/.rspec",
-		"/D/Users/Mom/sites/ruby/sinatra/Gemfile.lock",
-		"/C/DevKit/config.yml",
-		"/C/Ruby21/lib/ruby/gems/2.1.0/gems/rspec-core-3.3.2/lib/rspec/core/runner.rb",
-		"/C/Ruby21/lib/ruby/gems/2.1.0/gems/rspec-core-3.3.2/lib/rspec/core/configuration.rb",
-		"/C/Ruby21/lib/ruby/site_ruby/2.1.0/rubygems/core_ext/kernel_require.rb",
-		"/C/Ruby21/lib/ruby/gems/2.1.0/gems/yahoo_weatherman-2.0.0/lib/yahoo_weatherman.rb",
-		"/C/Ruby21/lib/ruby/gems/2.1.0/gems/yahoo_weatherman-2.0.0/lib/yahoo_weatherman/response.rb",
-		"/D/Users/Mom/sites/ruby/ruby_challenges/nokogiri.rb",
-		"/D/Users/Mom/sites/ruby/weather_app/test_weather.rb",
-		"/D/Users/Mom/sites/ruby/ruby_challenges/hash_practice.rb",
-		"/D/Users/Mom/sites/ruby/weather_app/taylor.rb"
+		"/D/Users/Mom/sites/ruby/ruby_challenges/numerology2.rb"
 	],
 	"find":
 	{
@@ -490,18 +570,287 @@
 			[
 				{
 					"buffer": 0,
-					"file": "/D/Users/Mom/_dev/SkillCrush/downloads/204/lesson-11/provided-code/sample-solution/style-forms/app/views/form.erb",
+					"file": "app/views/jumbotron-narrow.css",
 					"settings":
 					{
-						"buffer_size": 215,
+						"buffer_size": 1411,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								797,
+								797
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 660.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/views/people/new.html",
+					"settings":
+					{
+						"buffer_size": 20,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								20,
+								20
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/views/people/edit.html",
+					"settings":
+					{
+						"buffer_size": 21,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								21,
+								21
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "app/views/people/_form.html",
+					"settings":
+					{
+						"buffer_size": 21,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								21,
+								21
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "app/views/people/show.html",
+					"settings":
+					{
+						"buffer_size": 20,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								20,
+								20
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "app/views/layout.html",
+					"settings":
+					{
+						"buffer_size": 3901,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3690,
+								3690
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 658.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "app/views/people/show.erb",
+					"settings":
+					{
+						"buffer_size": 216,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								216,
+								216
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "app/views/layout.erb",
+					"settings":
+					{
+						"buffer_size": 2718,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2349,
+								2349
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 591.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "app/views/bootstrap.html",
+					"settings":
+					{
+						"buffer_size": 1181,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1181,
+								1181
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "app/controllers/index_controller.rb",
+					"settings":
+					{
+						"buffer_size": 868,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								330,
+								330
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 150.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "app/views/landing.erb",
+					"settings":
+					{
+						"buffer_size": 728,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								728,
+								728
 							]
 						],
 						"settings":
@@ -523,7 +872,7 @@
 	},
 	"input":
 	{
-		"height": 0.0
+		"height": 31.0
 	},
 	"layout":
 	{
@@ -577,6 +926,6 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 125.0,
+	"side_bar_width": 298.0,
 	"status_bar_visible": true
 }
